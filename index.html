@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>Covid-19 Tracker</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Montserrat&display=swap" rel="stylesheet"> 
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="fadeIn">
+    <div class="container col-11 content">
+        <div class="row">
+            <div class="numbers col-4" id="deaths">0</div>
+            <div class="numbers col-4" id="cases">0</div>
+            <div class="numbers col-4" id="recovered">0</div>
+        </div>
+        <div class="row">
+            <div class="desc col-4">deaths</div>
+            <div class="desc col-4">cases</div>
+            <div class="desc col-4">recovered</div>
+        </div>
+    </div>
+    <div class="container col-11">
+        <div class="row">
+            <div class="col-4">
+                <div class="container content-2">
+                    <div class="row"><div class="numbers" id="phil">0</div></div>
+                    <div class="row"><div class="desc">Philippines Cases</div></div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="container content-2">
+                    <div class="row"><div class="numbers" id="percent">0</div></div>
+                    <div class="row"><div class="desc">Cases to Population</div></div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="container content-2">
+                    <a class="twitter-timeline" href="https://twitter.com/who" data-width="100%" data-height="100px" data-twcon="timelinechrome" data-scibe="component:tweet" data-chrome="nofooter" data-theme="dark"></a>
+                    <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
